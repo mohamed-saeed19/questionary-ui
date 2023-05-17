@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;800&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Alexandria', sans-serif;
+
+}
+
+
+
+#login {
+  direction: ltr;
+  width: fit-content;
+  display: grid;
+  place-content: center;
+  height: 100%;
+  margin: auto;
+  width: 100%;
+  background-color: #fffcfc;
+}
+
+.login__form {
+  display: grid;
+  justify-content: center;
+}
+
+
+.login__form input,
+.error__msg ,
+.buttons__group button {
+  width: 330px !important;
+}
+
+.buttons__group {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.buttons__group button {
+  margin: 0 !important;
+}
+
+
+.single__question {
+  background-color: #006262;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+  padding: 20px 15px;
+  border-radius: 5px;
+}
+
+div[role='radiogroup'] > div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sec__head {
+  font-size: 1.5rem;
+  text-align: center;
+  border: 2px solid white;
+  width: 310px;
+  margin: 80px auto 10px;
+  padding: 10px 0;
+}
+
+.chakra-radio {
+  margin: 0 !important;
+}
+.coName{
+  display: flex;
+ justify-content: center;
+  color: black;
+
+  padding-top: 25px;
+}
+.container{
+background-color: #eee;
+  direction: ltr;
+ width: 100%;
+
+ padding: 20px;
+ height: 100vh;
+}
+
+.theBig{
+  color: green;
+}
+
+
+
+
